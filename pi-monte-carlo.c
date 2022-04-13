@@ -1,4 +1,5 @@
 // importing library from gcc
+// this code is created by Yehezkiel 
 #include <pthread.h>
 #include <stdio.h>
 #include <math.h>
