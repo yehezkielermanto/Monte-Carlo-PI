@@ -38,6 +38,8 @@ int main(){
   pthread_attr_init(&attr);
   // create thread
   pthread_create(&tid,&attr,randomXY,NULL);
+  pthread_create(&tid,&attr,randomXY,NULL);
+  pthread_create(&tid,&attr,randomXY,NULL);
   // wait for the thread to exit
   pthread_join(tid, NULL);
   
